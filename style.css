@@ -1,0 +1,25 @@
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+  color: red;
+}
+
+p1, p2 {
+  color: grey;
+}
+
+
+img {
+  animation: rotation 90s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
